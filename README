@@ -1,0 +1,8 @@
+# MIPS cpu
+
+Synthesis and waveform visualization based on (this 
+article)[https://nishtahir.com/a-mostly-free-fpga-development-workflow-for-macos/].
+
+# License
+
+MIT. Matias Silva 2023.
