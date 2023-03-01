@@ -1,7 +1,18 @@
 # MIPS cpu
 
+## Compiling
+
+Use Icarus Verilog for this.
+
+`iverilog -g2012 -Y .sv -y source/ -o $BUILD_DIR/$MODULE.iverilog $BENCH_FILE
+vvp $BUILD_DIR/$MODULE.iverilog `
+
+## Waves
+
+`gtkwave build/TestModule.vcd`
+
 Synthesis and waveform visualization based on (this 
-article)[https://nishtahir.com/a-mostly-free-fpga-development-workflow-for-macos/].
+article)[https://nishtahir.com/a-mostly-free-fpga-development-workflow-for-macos/] with tools from https://github.com/YosysHQ/oss-cad-suite-build.
 
 # License
 
