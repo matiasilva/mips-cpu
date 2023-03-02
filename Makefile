@@ -13,4 +13,4 @@ simulate:
 	vvp $(BUILD_DIR)/$(PROJ_NAME).vvp > $(BUILD_DIR)/$(PROJ_NAME)_logs.txt
 
 gtkwave: simulate
-	open io_signals.vcd -a gtkwave
+	open $(BUILD_DIR)/io_signals.vcd -a gtkwave
