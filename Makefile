@@ -1,6 +1,6 @@
 BUILD_DIR = build
 SRC_DIR = src
-PROJ_NAME = cpu
+PROJ_NAME = alu
 
 all: gtkwave
 

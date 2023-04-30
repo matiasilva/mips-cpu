@@ -1,6 +1,6 @@
 module cpu(clk, rst_n);
 
-  parameter REG_WIDTH = 32;
+  parameter REG_WIDTH = 16;
   parameter ALU_OP_WIDTH = 3;
 
   input wire clk;
